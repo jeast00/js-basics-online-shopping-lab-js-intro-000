@@ -30,6 +30,7 @@ function viewCart() {
       return `In your cart, you have ${cart[i].itemName} at $${cart[i].itemPrice}, ${cart[i+1].itemName} at $${cart[i+1].itemPrice}, and ${cart[i+2].itemName} at $${cart[i+2].itemPrice}.`;
     }
   }
+  return `Your shopping cart is empty.`;
 }
 
 function total() {
