@@ -54,7 +54,6 @@ function removeFromCart(item) {
 
 function placeOrder(cardNumber) {
   // write your code here
-  cart = [];
   if (cardNumber) {
     var string = `Your total cost is $${total()}, which will be charged to the card ${cardNumber}.`;
     cart.splice(0, cart.length);
